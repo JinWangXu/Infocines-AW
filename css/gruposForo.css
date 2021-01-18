@@ -1,0 +1,82 @@
+.tabla{
+  display: table;
+  background-image: url('../media/css/fondoCuadricula.jpg');
+  padding: 2%;
+  height:100%;
+  width:90%;
+}
+
+
+.tabla > div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 3%;
+  margin:1%;
+  font-size: 20px;
+  color:black;
+  border: 3px solid #e0c56e;
+}
+
+.tabla > div > div{
+  font-size: 14px;
+  color: #464c4e;
+  margin-left: 90px;
+  margin-right: 10px;
+  display:inline;
+}
+
+form {
+  
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 8px;
+  float: right ;
+}
+
+
+#btnver{
+	background:linear-gradient(to bottom, #ece2c6 5%, #daa520 100%);
+  border:1px solid #e0c56e;
+  position: relative ; 
+  left: 5px; 
+  bottom: 5px;
+  float: right;
+}
+
+#btnban{
+	border-radius:5px;
+	border:1px solid #2badf2;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1% 3%;
+	text-decoration:none;
+	background:#ddeaf3;
+  border:1px solid #000000;
+  position: relative ; 
+  left: 5px; 
+  bottom: 5px;
+  float: right;
+}
+#btnunirse{
+	background:#2badf2;
+	border-radius:5px;
+	border:1px solid #2badf2;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1% 3%;
+	text-decoration:none;
+
+  position: relative ; 
+  left: 5px; 
+  bottom: 5px;
+  float: right;
+}
+#miBoton:hover {
+	background:linear-gradient(to bottom, #daa520 5%, #ece2c6 100%);
+	border:1px solid #daa520;
+}
+

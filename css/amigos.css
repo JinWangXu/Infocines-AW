@@ -1,0 +1,110 @@
+.form_wrap{
+    width: 1050px;
+    height: 600px;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form_contact{
+    width: 100%;
+    padding: 30px 40px;
+}
+
+.botonAmigos{
+    cursor: pointer;
+    margin-left: 30px;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#botonAdd{
+    background-color: rgb(238, 40, 245);
+}
+
+#botonVer{
+    background-color: rgb(38, 167, 49);
+}
+
+#botonPeticiones{
+    background-color: rgb(233, 128, 42);
+}
+
+#botonBloqueados{
+    background-color: rgb(245, 40, 40);
+}
+
+/* Ponemos un span con el icono + para que aparezca desde la derecha */
+.botonAmigos span{
+    cursor: pointer;
+    transition: 0.7s;
+    position: relative;
+}
+
+.botonAmigos span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 0.7s;
+}
+
+#botonAdd span::after{
+    content: '\002b';
+}
+
+#botonVer span::after{
+    content: '\1F441';
+}
+
+#botonPeticiones span::after{
+    content: '\003F';
+}
+
+#botonBloqueados span::after{
+    content: '\🔒';
+}
+
+.botonAmigos:hover span {
+    padding-right: 25px;
+}
+
+.botonAmigos:hover span:after {
+    right: 0;
+    opacity: 1;
+}
+
+#elemAdd{
+    content: \002b;
+}
+table{
+    text-align: center;
+    line-height:3em;
+    margin:1em 2em;
+    border-spacing: 10px;
+}
+
+table td img{
+    width: 100px;
+}
+
+.opcionesAmigos{
+    font-size: 10px;
+    height:40px;
+    width:100px;
+    background: rgb(47, 142, 250);
+     
+    border:1px solid black;
+    color: #fff;
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+}

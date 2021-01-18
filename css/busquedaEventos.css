@@ -1,0 +1,28 @@
+.cuadriculaBE{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 1px;
+  grid-column-gap: 0px;
+  background-image: url('../media/css/fondoCuadricula.jpg');
+  padding: 2%;
+  margin-top:3%;
+  height:100%;
+  width:90%;
+}
+
+.cuadriculaBE > div {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 17px;
+  color:black;
+  border: 2px solid #e0c56e;
+}
+
+a {
+  color: #2badf2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1182e0;
+}

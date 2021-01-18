@@ -1,0 +1,29 @@
+.welcomeImg{
+    width: 50%;
+	border: 1px solid #d7c93f;
+  border-radius: 10px;
+}
+
+ol {
+  list-style-position: inside;
+  padding: 0;
+  background-image:url('../media/css/popcorn.jpg');
+  background-size: cover;
+  color:black;
+  padding:3%;
+  margin:2%;
+	border: 5px solid #d7c93f;
+  border-radius: 10px;
+}
+.rules{
+	font-size:24px;
+	text-decoration: underline;
+	font-style: italic;
+	color:black;
+}
+.rulesTitle{
+	font-size:23px;
+	text-decoration: none;
+	color:#d7c93f;
+	margin:4%;
+}
